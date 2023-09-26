@@ -1,3 +1,4 @@
+from math import *
 def main(a):
     """
     Check the natural number. Natural numbers are numbers used in counting.
@@ -6,5 +7,6 @@ def main(a):
     Returns:
         bool
     """
-    # Write your code here
-    return 
+    x=a>0 and a/1==round(a)
+    return x
+print(main(4.005))
